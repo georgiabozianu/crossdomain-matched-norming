@@ -45,8 +45,8 @@ This repository will include:
    ```bash
    git clone https://github.com/georgiabozianu/crossdomain-matched-norming.git
    ```
-2. **Explore folders:** See `/stimuli` for materials and `/scripts` for experiment code.
-3. **Run experiments or analyses:** Follow instructions in the specific folders in their own `README.md` files.
+2. **Explore folders:** See `/data` for data and `/scripts` for experiment code.
+3. **Run experiments or analyses:** Follow comments in the code or instructions in the main/scripts `README.md` file.
 
 > _Specific instructions on running scripts or analyses will be added as code and data are uploaded._
 
