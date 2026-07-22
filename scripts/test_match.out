@@ -1,0 +1,95 @@
+Match 2.09.01, compiled Sep  6 2007 14:52:59 started at Wed Jun 11 13:02:10 2025
+
+**********  Script **********
+
+OutputFile test_match1.out
+InputFile C1 sjt_trials_for_match.txt sjt_matched.txt
+InputFile C2 vsg_trials_for_match.txt vsg_matched.txt
+OutputSize 429
+RunInBackGround idle
+SearchIntensity 2
+MatchFields C1 2 C2 2 ReactionTime
+MatchFields C1 3 C2 3 Accuracy
+
+**********  End Script **********
+
+Random seed used: 1749643330
+
+Information per data-set:
+
+  C1, sjt_trials_for_match.txt : 429 items.
+
+    Field         Min      Max      Mean     Median   StdDev
+    ---------------------------------------------------------
+    ReactionTime  1325.86  3207.27  2103.15  2091.27  371.971
+    Accuracy      312.81   920.47   688.335  706.601  121.344
+
+
+  C2, vsg_trials_for_match.txt : 926 items.
+
+    Field         Min      Max      Mean     Median   StdDev
+    ---------------------------------------------------------
+    ReactionTime  1165.7   3180.24  2354.74  2425.63  440.387
+    Accuracy      228.761  985.137  704.951  726.938  140.465
+
+
+Information per match-field:
+
+
+  Accuracy
+
+    Set  N    Min      Max      Mean     Median   StdDev
+    -----------------------------------------------------
+    C1   429  312.81   920.47   688.335  706.601  121.344
+    C2   926  228.761  985.137  704.951  726.938  140.465
+
+
+  ReactionTime
+
+    Set  N    Min      Max      Mean     Median   StdDev
+    -----------------------------------------------------
+    C1   429  1325.86  3207.27  2103.15  2091.27  371.971
+    C2   926  1165.7   3180.24  2354.74  2425.63  440.387
+
+Matching strategy: PairWise
+
+  ******  Matching started, hit Control-C to stop  ******
+
+Solution found: Score 1.89906, time 8.144
+
+Datasets after matching:
+
+  C1  sjt_matched.txt : 429 items.
+
+    Field         Min      Max      Mean     Median   StdDev
+    ---------------------------------------------------------
+    ReactionTime  1325.86  3207.27  2103.15  2091.27  371.971
+    Accuracy      312.81   920.47   688.335  706.601  121.344
+
+
+  C2  vsg_matched.txt : 429 items.
+
+    Field         Min      Max      Mean     Median   StdDev
+    ---------------------------------------------------------
+    ReactionTime  1304.4   3046.19  2146.57  2187.13  362.778
+    Accuracy      304.453  961.77   679.456  693.902  122.078
+
+
+Matching information per match-field:
+
+
+  Accuracy
+
+    Set  N    Min      Max     Mean     Median   StdDev
+    ----------------------------------------------------
+    C1   429  312.81   920.47  688.335  706.601  121.344
+    C2   429  304.453  961.77  679.456  693.902  122.078
+
+
+  ReactionTime
+
+    Set  N    Min      Max      Mean     Median   StdDev
+    -----------------------------------------------------
+    C1   429  1325.86  3207.27  2103.15  2091.27  371.971
+    C2   429  1304.4   3046.19  2146.57  2187.13  362.778
+
