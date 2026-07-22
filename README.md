@@ -1,10 +1,10 @@
 # Crossdomain Matched Norming
 
-Repository for materials relevant to the project _“Mapping the Scope of Executive and Semantic Demand: an online norming study of matched, cross-domain judgement tasks”._
+Repository for materials relevant to the project _“Establishing parallel and scalar measures of executive and semantic demand: an online norming study of matched, cross-domain judgement tasks”._
 
 ## Overview
 
-This repository contains stimuli, experimental scripts, data, and analyses for matching executive and semantic cognitive processing across a wide range of task difficulty across domains in online 3AFC judgement tasks.
+This repository contains experimental scripts and analyses for matching executive and semantic cognitive processing across a wide range of task difficulty across domains in online 3AFC judgement tasks.
 
 The project aims to provide materials and resources to facilitate research into cross-domain norming by ensuring that tasks and items are comparable and highly-controlled.
 
@@ -24,10 +24,8 @@ The project aims to provide materials and resources to facilitate research into 
 
 ## Project Structure
 
-- **/stimuli** – Experimental items and norms
 - **/scripts** – Code for administering online tasks and collecting responses
-- **/data** – Collected datasets or sample data (if available)
-- **/analysis** – Scripts for processing and analyzing data
+- **/data** – Collected datasets 
 - **README.md** – Project description and instructions
 
 ---
@@ -35,10 +33,9 @@ The project aims to provide materials and resources to facilitate research into 
 ## Materials
 
 This repository will include:
-- Experimental stimuli (e.g., trial lists, stimuli picture files)
 - JATOS task code (JsPych, HTML/JavaScript)
-- Data files 
-- Analysis scripts (Python/R/Matlab)
+- Analysis scripts (Python/Jupyter Notebooks)
+- Raw and processed data
 
 ---
 
